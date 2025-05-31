@@ -272,7 +272,7 @@ def main():
         draw_window(screen, grid)
         pygame.display.update()
 
-    draw_text_middle("YOU LOST", 80, WHITE)
+    draw_text_middle("YOU LOST", 80, RED)
     pygame.display.update()
     pygame.time.delay(1500)
 
